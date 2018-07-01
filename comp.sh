@@ -14,5 +14,8 @@ gcc $F1 -o f1.out $L1
 gcc $F2 -o f2.out $L1
 ./f2.out
 
-gcc $F3 -o f3.out $L1
-./f3.out
+gcc-7 $F3 -o f3-gcc7.out $L1
+./f3-gcc7.out
+
+gcc-8 $F3 -o f3-gcc8.out $L1
+./f3-gcc8.out
